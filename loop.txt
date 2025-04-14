@@ -1,0 +1,5 @@
+call stack
+browser  //
+
+ asynchronous code
+callback queue

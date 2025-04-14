@@ -1,0 +1,46 @@
+<!--<!DOCTYPE html>
+<html>
+<head>
+<title> Document</title>
+</head>
+<body>
+<div>
+<p id="fpara">
+Hello jee
+</P>
+</div>
+</body>
+<script>
+functin changeText(){
+let fpara =document.getElementById('fpara');
+fpara.textContent ="Heelo World";
+}
+let fpara= document.getElementById('fpara');
+fpara.addEventListener('click',changeText);
+
+</script>
+
+</html>-->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <p id="fpara">
+            Hello jee
+        </p>
+        <a href="https://www.sietk.org" id="fanchor">clickHere</a>
+    </div>
+    <script>
+       
+       let anchorElement =document.getElementById('fanchor'
+       );
+       anchorElement.addEventListener('click',function(event){
+        event.preventDefault();
+        anchorElement.textContent ="Click Hogaya "
+       })
+    </script>
+</body>
+</html>
